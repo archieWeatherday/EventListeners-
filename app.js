@@ -18,7 +18,8 @@ function change(){
 	let myHeader = document.querySelector("#header");
 	myHeader.innerText = rgbString;
 	//OK now tthat we have changed the h1, all we need to do is change the background color!
-	//this is a bad idea
+	//this is a bad idea, but the other solution is to create a class...soooo, whatever, eh.
+	document.body.style.backgroundColor = rgbString;
 }
 
 let btn = document.querySelector("#colorChange");
